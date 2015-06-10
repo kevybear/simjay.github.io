@@ -1,3 +1,10 @@
+html { 
+  background: url(images/dock.jpg) no-repeat center center fixed; 
+  -webkit-background-size: auto;
+     -moz-background-size: auto;
+       -o-background-size: auto;
+          background-size: auto;
+}
 
 body{
 	text-align:center;
@@ -6,11 +13,17 @@ body{
 	margin-right: auto;
 }
 
+#page{
+	background-color: rgba(255,255,255,0.2);
+}
+
 h1{
+	margin-top: 50px;
+	padding: 30px;
 	text-align: center;
 }
 
-.navigation{
+nav{
     border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
@@ -19,12 +32,12 @@ h1{
     text-align:center;
 }
 
-.navigation li{
+nav li{
 	display:inline;
-	margin:2em;
+	margin:80px;
 }
 
-.navigation a{
+nav a{
     display:inline-block;
     padding:10px;
 }
